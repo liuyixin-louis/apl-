@@ -223,7 +223,7 @@ def main_sketch_run(model_name,INPUT_FRAMES, RUN_NAME, SETTINGS):
             # test_bboxes += replace_test_bboxes
             test_bboxes = replace_test_bboxes
 
-        # 垂直合并同一个的框
+        # 标注图像，输出最终结果
         annotate_image_with_bounding_boxes(INPUT_FRAMES + frame_files[frame_i],
                                            output_frames_folder + frame_files[frame_i], test_bboxes, colors,
                                            draw_text=False, save=True, show=False,
