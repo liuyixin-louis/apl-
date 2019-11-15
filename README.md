@@ -1,5 +1,9 @@
 # apl-
 
+
+入口文件：apl_simplified.py
+
+准备：
 需要下载V2和V3对应的的检测用的权重文件：
 
 YAD2K：https://github.com/allanzelener/YAD2K 
